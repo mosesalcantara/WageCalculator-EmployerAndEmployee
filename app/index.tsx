@@ -4,7 +4,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const IndexPage = () => {
   return (
     <SafeAreaView className="flex-1 p-4">
-      <Text className="text-red-500">Index Page</Text>
+      <Text className="font-b">Index Page</Text>
+      <Text className="font-r">Index Page</Text>
     </SafeAreaView>
   );
 };
