@@ -1,15 +1,11 @@
 import { Text, View } from "react-native";
 
-export default function Index() {
+const IndexPage = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <View className="flex-1">
       <Text className="text-red-500">Index Page</Text>
     </View>
   );
-}
+};
+
+export default IndexPage;
